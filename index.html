@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport</title>
+    <link rel="shortcut icon" type="image/png" href="img/favIco.png">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body id="home">
+
+    <svg style="display:none">
+        <symbol id="facebook" viewBox="0 0 100 100">
+            <path
+                d="M50,3.84C24.506,3.84,3.84,24.506,3.84,50S24.506,96.16,50,96.16S96.16,75.494,96.16,50S75.494,3.84,50,3.84  z M65.137,52.572c-1.854-0.031-3.549,0.023-5.704-0.07c-0.35-0.016-5.963,0.068-5.946,0.17c0.408,2.496-0.178,5.148-0.143,7.672  c0.021,1.471,0.453,14.779,0.254,19.688l-11.123,0.102c-0.046-4.18,0.158-8.479-0.023-13.992  c-0.037-1.133-0.074-13.061-0.206-13.689c0,0-4.916,0.035-7.214,0.049c0,0-0.031-4.402-0.031-5.891c0-1.463,0-2.924,0-4.387  c0,0,5.738-0.318,7.385-0.461c0,0,0.168-5.584,0.396-7.393c0.263-2.066,0.289-4.154,1.502-5.982  c2.223-3.346,4.417-6.295,8.504-7.184c1.546-0.338,11.741-2.342,12.119-0.693l-0.232,9.928c-2.772,0-6.094-0.281-8.923,1.82  c-1.575,1.172-2.01,2.148-2.169,4.076c-0.095,1.121-0.117,5.658-0.117,5.658c1.494,0.213,3.705,0.119,5.311,0  c1.814-0.135,6.471,0.346,6.471,0.346C65.246,45.342,65.126,52.275,65.137,52.572z"
+                fill="#fff" />
+        </symbol>
+
+        <symbol id="instagram" viewBox="0 0 154.631 154.631">
+            <g id="icon_2_">
+                <circle cx="77.315" cy="77.315" fill="#fff" r="77.315" />
+                <path
+                    d="M77.412,44.492c10.721,0,11.998,0.041,16.226,0.233c3.913,0.178,6.041,0.834,7.454,1.383   c1.881,0.728,3.213,1.6,4.627,3.003c1.4,1.407,2.271,2.742,2.999,4.62c0.55,1.414,1.201,3.542,1.38,7.458   c0.192,4.232,0.233,5.501,0.233,16.227c0,10.718-0.041,11.995-0.233,16.223c-0.179,3.913-0.83,6.041-1.38,7.454   c-0.728,1.881-1.599,3.213-2.999,4.627c-1.414,1.4-2.746,2.265-4.627,2.999c-1.413,0.55-3.541,1.201-7.454,1.38   c-4.228,0.192-5.505,0.233-16.226,0.233c-10.722,0-11.992-0.041-16.227-0.233c-3.912-0.179-6.04-0.83-7.454-1.38   c-1.874-0.728-3.212-1.599-4.62-2.999c-1.407-1.414-2.272-2.746-3-4.627c-0.549-1.413-1.208-3.541-1.386-7.454   c-0.192-4.228-0.233-5.505-0.233-16.223c0-10.725,0.041-11.995,0.233-16.227c0.178-3.916,0.837-6.043,1.386-7.458   c0.728-1.877,1.593-3.212,3-4.62c1.407-1.403,2.746-2.275,4.62-3.003c1.414-0.549,3.542-1.205,7.454-1.383   C65.42,44.533,66.69,44.492,77.412,44.492 M77.412,37.257c-10.9,0-12.273,0.045-16.556,0.24c-4.27,0.196-7.194,0.875-9.747,1.867   c-2.636,1.026-4.88,2.399-7.111,4.633c-2.238,2.23-3.61,4.472-4.633,7.111c-0.995,2.557-1.668,5.474-1.867,9.75   c-0.199,4.283-0.24,5.649-0.24,16.556c0,10.91,0.042,12.27,0.24,16.553c0.199,4.276,0.872,7.193,1.867,9.746   c1.023,2.649,2.396,4.888,4.633,7.118c2.23,2.23,4.475,3.604,7.111,4.634c2.553,0.988,5.478,1.668,9.747,1.866   c4.283,0.192,5.656,0.24,16.556,0.24c10.906,0,12.272-0.048,16.556-0.24c4.276-0.198,7.193-0.878,9.746-1.866   c2.643-1.03,4.888-2.403,7.111-4.634c2.237-2.23,3.61-4.469,4.641-7.118c0.988-2.553,1.667-5.463,1.866-9.746   c0.192-4.283,0.233-5.643,0.233-16.553c0-10.907-0.041-12.273-0.233-16.556c-0.199-4.276-0.878-7.193-1.866-9.75   c-1.03-2.639-2.403-4.88-4.641-7.111c-2.224-2.234-4.469-3.607-7.111-4.633c-2.553-0.992-5.47-1.671-9.746-1.867   C89.685,37.302,88.318,37.257,77.412,37.257 M77.412,56.792c-11.388,0-20.62,9.232-20.62,20.623s9.232,20.616,20.62,20.616   c11.394,0,20.619-9.226,20.619-20.616S88.806,56.792,77.412,56.792 M77.412,90.796c-7.393,0-13.385-5.985-13.385-13.381   c0-7.396,5.992-13.388,13.385-13.388c7.398,0,13.384,5.992,13.384,13.388C90.796,84.811,84.811,90.796,77.412,90.796    M103.666,55.979c0-2.663-2.155-4.818-4.818-4.818c-2.656,0-4.818,2.155-4.818,4.818c0,2.66,2.162,4.818,4.818,4.818   C101.511,60.797,103.666,58.639,103.666,55.979"
+                    fill="#1b1b1b" />
+            </g>
+        </symbol>
+
+        <symbol id="twitter" viewBox="0 0 550 550">
+            <g>
+                <circle cx="275" cy="275" fill="#fff" r="256" />
+                <path
+                    d="M161.9,181.2c0,0,40.6,45.9,107.8,53.4c0,0-3.2-38.4,30.9-59.8c0,0,35.2-23.5,61.9,10.7     c0,0,25.6-5.3,35.2-11.7c0,0-7.5,14.5-20.3,27l28.8-5.7l-26.7,28.8c0,0,10.7,97.1-95.5,148.3c0,0-82.7,29.9-140.3-9.6     c0,0,70.4-10.7,77.9-26.7c0,0-37.4-4.3-47-36.3l20.3-1.1c0,0-35.2-3.2-39.5-53.4l23.5,3.2C179,248.4,141.6,237.8,161.9,181.2z"
+                    fill="#1b1b1b" />
+            </g>
+        </symbol>
+
+        <symbol id="youtube" viewBox="0 0 48 48">
+            <path
+                d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24Z"
+                fill="#fff" />
+            <path
+                d="M36.265 18.0732C35.9706 16.9422 35.1031 16.0516 34.0016 15.7493C32.0054 15.2 24 15.2 24 15.2C24 15.2 15.9946 15.2 13.9983 15.7493C12.8967 16.0516 12.0292 16.9422 11.7348 18.0732C11.2 20.1231 11.2 24.4 11.2 24.4C11.2 24.4 11.2 28.6768 11.7348 30.7268C12.0292 31.8578 12.8967 32.7484 13.9983 33.0508C15.9946 33.6 24 33.6 24 33.6C24 33.6 32.0054 33.6 34.0016 33.0508C35.1031 32.7484 35.9706 31.8578 36.265 30.7268C36.8 28.6768 36.8 24.4 36.8 24.4C36.8 24.4 36.8 20.1231 36.265 18.0732"
+                fill="#1b1b1b" />
+            <path d="M21.6 28.8V20.8L28 24.8001L21.6 28.8Z" fill="#fff" />
+        </symbol>
+
+        <symbol id="snapchat" viewBox="0 0 48 48">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM24.2461 12H24.245C24.2229 12 24.2022 12 24.1824 12.0003C24.0248 12.0019 23.7656 12.0044 23.7423 12.0046C23.174 12.0046 22.037 12.0847 20.8156 12.6222C20.1172 12.9294 19.4891 13.3446 18.9487 13.8566C18.3043 14.4666 17.7794 15.2186 17.3888 16.0922C16.8167 17.3713 16.9525 19.5258 17.0616 21.2572L17.062 21.2599C17.0737 21.4453 17.0859 21.6389 17.0971 21.8276C17.0132 21.866 16.8772 21.9066 16.6766 21.9066C16.3539 21.9066 15.9702 21.8037 15.5363 21.601C15.4087 21.5417 15.263 21.5118 15.1023 21.5118C14.844 21.5118 14.5717 21.5876 14.3355 21.726C14.0384 21.9 13.8464 22.1459 13.7942 22.4185C13.7599 22.5988 13.7615 22.9552 14.1586 23.3167C14.377 23.5157 14.6978 23.6992 15.1119 23.8624C15.2206 23.905 15.3496 23.9458 15.4862 23.989C15.9602 24.1392 16.6777 24.3662 16.8647 24.8052C16.9596 25.0278 16.9188 25.3207 16.7438 25.6748C16.7392 25.6844 16.7346 25.6939 16.7305 25.7038C16.6867 25.8056 16.2789 26.7268 15.4422 27.6984C14.9668 28.2509 14.4431 28.7126 13.8866 29.0712C13.2074 29.5089 12.4725 29.795 11.7024 29.9215C11.4 29.971 11.1841 30.2396 11.2009 30.5449C11.2061 30.6329 11.2268 30.7206 11.2627 30.8055C11.263 30.806 11.2633 30.8066 11.2636 30.807C11.3858 31.0922 11.6693 31.3344 12.1302 31.5481C12.6934 31.8089 13.5357 32.0284 14.6335 32.2C14.6889 32.3052 14.7465 32.5695 14.7864 32.7505C14.8281 32.9429 14.8717 33.1407 14.9337 33.3508C15.0006 33.5784 15.1742 33.8504 15.6203 33.8504C15.7893 33.8504 15.9837 33.8125 16.2088 33.7689C16.5385 33.7044 16.9893 33.6165 17.5519 33.6165C17.8639 33.6165 18.1872 33.6438 18.5126 33.6978C19.1399 33.8019 19.6806 34.1828 20.3063 34.6239C21.2221 35.2694 22.2588 36 23.8426 36C23.8858 36 23.9291 35.9986 23.9719 35.9956C24.0242 35.9981 24.0891 36 24.1576 36C25.7419 36 26.7782 35.2691 27.693 34.6241L27.6945 34.6228C28.3203 34.1822 28.8605 33.8019 29.4876 33.6978C29.8128 33.6439 30.1361 33.6165 30.4481 33.6165C30.9857 33.6165 31.4113 33.6848 31.7913 33.7587C32.0393 33.8074 32.232 33.8308 32.3799 33.8308L32.3943 33.831H32.4093C32.7355 33.831 32.9752 33.6525 33.0667 33.3401C33.1275 33.1344 33.1709 32.9412 33.2137 32.7456C33.251 32.576 33.3105 32.3041 33.366 32.1978C34.4645 32.0259 35.3065 31.8069 35.8698 31.5461C36.3296 31.3335 36.6127 31.0915 36.7357 30.8075C36.7726 30.7224 36.7942 30.6341 36.799 30.5443C36.8163 30.2395 36.6001 29.9703 36.2975 29.9209C32.8751 29.3585 31.3334 25.8522 31.2696 25.7032C31.2655 25.6934 31.2609 25.6837 31.256 25.6742C31.0811 25.3201 31.0407 25.0275 31.1355 24.8045C31.3222 24.3658 32.0392 24.1389 32.5136 23.9887C32.6509 23.9456 32.7803 23.9046 32.8881 23.8621C33.3551 23.6782 33.6889 23.4787 33.9091 23.2521C34.1721 22.982 34.2233 22.7233 34.2201 22.5539C34.2121 22.1442 33.898 21.7801 33.3983 21.6018C33.2295 21.5322 33.037 21.4955 32.841 21.4955C32.7076 21.4955 32.51 21.5138 32.323 21.6008C31.9226 21.7876 31.564 21.8898 31.2561 21.9043C31.0923 21.896 30.9775 21.8606 30.9031 21.8268C30.9125 21.667 30.9228 21.5028 30.9335 21.3316L30.938 21.2583C31.0476 19.5259 31.1839 17.3697 30.6116 16.0897C30.2193 15.213 29.6925 14.459 29.0456 13.8477C28.503 13.3355 27.8728 12.9202 27.1719 12.6133C25.9522 12.0797 24.8152 12 24.2461 12Z"
+                fill="#fff" />
+        </symbol>
+
+    </svg>
+
+
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo"><a href="index.html"><img src="img/Logo.png" alt="Logo"></a></div>
+
+                
+                    <nav class="nav">
+                        <div class="nav__item">
+                            <a href="#" class="nav__link active" data-scroll="#home">HOME</a>
+                        </div>
+                        <div class="nav__item">
+                            <a href="#" class="nav__link" data-scroll="#about">ABOUT</a>
+                        </div>
+                        <div class="nav__item">
+                            <a href="#" class="nav__link" data-scroll="#shop">SHOP</a>
+                        </div>
+                        <div class="nav__item">
+                            <a href="#" class="nav__link" data-scroll="#contact">CONTACT</a>
+                        </div>
+                    </nav>
+                    <button class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                
+                <div class="nav__mask"></div>
+            </div>
+    </header>
+
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__content">
+                <div class="intro__title"><img src="img/introSport.png" alt="Title"></div>
+                <div class="intro__text">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                    <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                    <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                </div>
+                <button class="intro__readMore">READ MORE</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="whoAreWe">
+        <div class="container">
+            <div class="whoAreWe__title">Who are we</div>
+            <div class="whoAreWe__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et </p>
+                <p>dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip </p>
+                <p>ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore </p>
+                <p>eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="container">
+            <div class="info__inner">
+
+                <div class="info__item">
+                    <div class="info__item-title">We use less water</div>
+                    <div class="info__item-text">
+                        <p>Lorem ipsum dolor sit amet, consecte</p>
+                        <p>sectetur adipisicing elit, tation omne </p>
+                        <p>ullamco laboris nisi ut aliqolore.</p>
+                    </div>
+                </div>
+
+                <div class="info__item">
+                    <div class="info__item-title">We respect nature</div>
+                    <div class="info__item-text">
+                        <p>Lorem ipsum dolor sit amet, consecte</p>
+                        <p>sectetur adipisicing elit, tation omne </p>
+                        <p>ullamco laboris nisi ut aliqolore.</p>
+                    </div>
+                </div>
+
+                <div class="info__item">
+                    <div class="info__item-title">We believe in recycling</div>
+                    <div class="info__item-text">
+                        <p>Lorem ipsum dolor sit amet, consecte</p>
+                        <p>sectetur adipisicing elit, tation omne </p>
+                        <p>ullamco laboris nisi ut aliqolore.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="preorities">
+        <div class="container">
+            <div class="preorities__title">Priorities go first</div>
+            <div class="preorities__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore</p>
+                <p>et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut
+                </p>
+            </div>
+
+            <div class="preorities__items">
+
+                <div class="preorities__item">
+                    <div class="preorities__item-title styleItem--title">company</div>
+                    <div class="preorities__item-text styleItem--text">
+                        <p>“Lorem ipsum dolor </p>
+                        <p>sit amet, consectetur</p>
+                        <p>adipisicing elit sed do”.</p>
+                    </div>
+                    <div class="preorities__item-author">
+                        <div class="preorities__item-author-title styleItem--authorTitle">adam johns</div>
+                        <div class="preorities__item-author-subtitle styleItem--authorSubtitle">account manager
+                        </div>
+                    </div>
+                </div>
+
+                <div class="preorities__item">
+                    <div class="preorities__item-title styleItem--title">company</div>
+                    <div class="preorities__item-text styleItem--text">
+                        <p>“Lorem ipsum dolor </p>
+                        <p>sit amet, consectetur</p>
+                        <p>adipisicing elit sed do”.</p>
+                    </div>
+                    <div class="preorities__item-author">
+                        <div class="preorities__item-author-title styleItem--authorTitle styleItem--authorTitle">
+                            adam johns</div>
+                        <div class="preorities__item-author-subtitle styleItem--authorSubtitle">account manager
+                        </div>
+                    </div>
+                </div>
+
+                <div class="preorities__item">
+                    <div class="preorities__item-title styleItem--title">company</div>
+                    <div class="preorities__item-text styleItem--text">
+                        <p>“Lorem ipsum dolor </p>
+                        <p>sit amet, consectetur</p>
+                        <p>adipisicing elit sed do”.</p>
+                    </div>
+                    <div class="preorities__item-author">
+                        <div class="preorities__item-author-title styleItem--authorTitle">adam johns</div>
+                        <div class="preorities__item-author-subtitle styleItem--authorSubtitle">account manager
+                        </div>
+                    </div>
+                </div>
+
+                <div class="preorities__item">
+                    <div class="preorities__item-title styleItem--title">company</div>
+                    <div class="preorities__item-text styleItem--text">
+                        <p>“Lorem ipsum dolor </p>
+                        <p>sit amet, consectetur</p>
+                        <p>adipisicing elit sed do”.</p>
+                    </div>
+                    <div class="preorities__item-author">
+                        <div class="preorities__item-author-title styleItem--authorTitle">adam johns</div>
+                        <div class="preorities__item-author-subtitle styleItem--authorSubtitle">account manager
+                        </div>
+                    </div>
+                </div>
+
+                <div class="preorities__item">
+                    <div class="preorities__item-title styleItem--title">company</div>
+                    <div class="preorities__item-text styleItem--text">
+                        <p>“Lorem ipsum dolor </p>
+                        <p>sit amet, consectetur</p>
+                        <p>adipisicing elit sed do”.</p>
+                    </div>
+                    <div class="preorities__item-author">
+                        <div class="preorities__item-author-title styleItem--authorTitle">adam johns</div>
+                        <div class="preorities__item-author-subtitle styleItem--authorSubtitle">account manager
+                        </div>
+                    </div>
+                </div>
+
+                <div class="preorities__item">
+                    <div class="preorities__item-title styleItem--title">company</div>
+                    <div class="preorities__item-text styleItem--text">
+                        <p>“Lorem ipsum dolor </p>
+                        <p>sit amet, consectetur</p>
+                        <p>adipisicing elit sed do”.</p>
+                    </div>
+                    <div class="preorities__item-author">
+                        <div class="preorities__item-author-title styleItem--authorTitle">adam johns</div>
+                        <div class="preorities__item-author-subtitle styleItem--authorSubtitle">account manager
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="what">
+        <div class="container">
+            <div class="what__title">What exactly do we do</div>
+            <div class="what__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                <p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+            </div>
+
+            <nav class="what__nav">
+                <a href="#" class="what__nav-link">Projects</a>
+                <a href="#" class="what__nav-link">Travel</a>
+                <a href="#" class="what__nav-link">Mission</a>
+                <a href="#" class="what__nav-link">Photos</a>
+            </nav>
+
+            <div class="what__items">
+
+                <div class="what__item">
+                    <div class="what__item-img"><img src="img/what1.png" alt="Image"></div>
+                    <div class="what__item-title styleItem--title">SPORT</div>
+                    <div class="what__item-text styleItem--text">
+                        <p>“Lorem ipsum dolor </p>
+                        <p>sit amet, consectetur</p>
+                        <p>adipisicing elit sed do”.</p>
+                    </div>
+                    <div class="what__item-author">
+                        <div class="what__item-author-title styleItem--authorTitle">adam johns</div>
+                        <div class="what__item-author-subTitle styleItem--authorSubtitle">account manager</div>
+                    </div>
+                </div>
+
+                <div class="what__item">
+                    <div class="what__item-img"><img src="img/what2.png" alt="Image"></div>
+                    <div class="what__item-title styleItem--title">SPORT</div>
+                    <div class="what__item-text styleItem--text">
+                        <p>“Lorem ipsum dolor </p>
+                        <p>sit amet, consectetur</p>
+                        <p>adipisicing elit sed do”.</p>
+                    </div>
+                    <div class="what__item-author">
+                        <div class="what__item-author-title styleItem--authorTitle">adam johns</div>
+                        <div class="what__item-author-subTitle styleItem--authorSubtitle">account manager</div>
+                    </div>
+                </div>
+
+                <div class="what__item">
+                    <div class="what__item-img"><img src="img/what3.png" alt="Image"></div>
+                    <div class="what__item-title styleItem--title">SPORT</div>
+                    <div class="what__item-text styleItem--text">
+                        <p>“Lorem ipsum dolor </p>
+                        <p>sit amet, consectetur</p>
+                        <p>adipisicing elit sed do”.</p>
+                    </div>
+                    <div class="what__item-author">
+                        <div class="what__item-author-title styleItem--authorTitle">adam johns</div>
+                        <div class="what__item-author-subTitle styleItem--authorSubtitle">account manager</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="david" id="contact">
+        <div class="container">
+            <div class="david__title">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                <p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+            </div>
+            <a href="#" class="david__btn">David Johnson</a>
+        </div>
+    </div>
+
+    <div class="nature">
+        <div class="nature-container">
+            <div class="nature__inner">
+
+                <div class="nature__content">
+                    <div class="nature__content-inner">
+                        <div class="nature__content-title">Nature is above all</div>
+                        <div class="nature__content-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+                            <p>elit, sed do eiusmod tempor incididunt ut labore et </p>
+                            <p>dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="nature__img"><img src="img/natureImg.jpg" alt="Image"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="tickets" id="shop">
+        <div class="container">
+            <div class="tickets__inner">
+                <div class="tickets__content">
+                    <div class="tickets__content-title">
+                        <h2>BUY YOUR <span>TICKETS</span></h2>
+                    </div>
+                    <div class="tickets__content-text">
+                        <p>Lorem ipsum dolor sit amet, consec-</p>
+                        <p>tetur adipisicing elit, sed do eiusmod </p>
+                        <p>tempor incididunt ut labore et dolore </p>
+                    </div>
+                    <button class="tickets__btn">here</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects">
+        <div class="container">
+            <div class="projects__items">
+
+                <div class="projects__item">
+                    <div class="projects__item-date">Projects / 20th August</div>
+                    <div class="projects__item-title">Something new has just arrived</div>
+                    <div class="projects__item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim v architecto beatae vitae dicta sunt es. omne
+                        essentiale dolor liquam.
+                    </div>
+                </div>
+
+                <div class="projects__item">
+                    <img src="img/projects1.png" alt="Image">
+                </div>
+
+                <div class="projects__item">
+                    <div class="projects__item-date">Projects / 20th August</div>
+                    <div class="projects__item-title">Something new has just arrived</div>
+                    <div class="projects__item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim v architecto beatae vitae dicta sunt es. omne
+                        essentiale dolor liquam.
+                    </div>
+                </div>
+
+                <div class="projects__item">
+                    <img src="img/projects2.png" alt="Image">
+                </div>
+
+                <div class="projects__item">
+                    <div class="projects__item-date">Projects / 20th August</div>
+                    <div class="projects__item-title">Something new has just arrived</div>
+                    <div class="projects__item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim v architecto beatae vitae dicta sunt es. omne
+                        essentiale dolor liquam.
+                    </div>
+                </div>
+
+                <div class="projects__item">
+                    <img src="img/projects3.png" alt="Image">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="trips">
+        <div class="container">
+
+            <div class="trips__items">
+                <div class="trips__item">
+                    <div class="trips__item-title">Lorem ipsum dolor sit</div>
+                    <div class="trips__item-date">Trips / 16th March, 2019</div>
+                </div>
+
+                <div class="trips__item">
+                    <div class="trips__item-title">Lorem ipsum dolor sit</div>
+                    <div class="trips__item-date">Trips / 16th March, 2019</div>
+                </div>
+
+                <div class="trips__item">
+                    <div class="trips__item-title">Lorem ipsum dolor sit</div>
+                    <div class="trips__item-date">Trips / 16th March, 2019</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="david david--2">
+        <div class="container">
+            <div class="david__title">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
+            </div>
+            <a href="#" class="david__btn">David Johnson</a>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="about__inner">
+
+                <div class="about__section">
+                    <div class="about__section-title">about</div>
+                    <div class="about__section-text">
+                        <p>Lorem ipsum dolor sit amet, consec</p>
+                        <p>tetur adipisicing elit, sed do eiusmod</p>
+                        <p>tempor incididunt ultimam quantum</p>
+                    </div>
+                    <div class="about__section-social">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="#twitter"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="#youtube"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="#snapchat"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="about__links">
+
+                    <div class="about__links-item">
+                        <div class="about__links-item-title">about</div>
+                        <a href="#">Team</a>
+                        <a href="#">Join us</a>
+                        <a href="#">Ethic</a>
+                        <a href="#">Goals</a>
+                    </div>
+
+                    <div class="about__links-item">
+                        <div class="about__links-item-title">about</div>
+                        <a href="#">Team</a>
+                        <a href="#">Join us</a>
+                        <a href="#">Ethic</a>
+                        <a href="#">Goals</a>
+                    </div>
+
+                    <div class="about__links-item">
+                        <div class="about__links-item-title">about</div>
+                        <a href="#">Team</a>
+                        <a href="#">Join us</a>
+                        <a href="#">Ethic</a>
+                        <a href="#">Goals</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
